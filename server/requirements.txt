@@ -1,6 +1,1 @@
-flask
-flask-cors
-transformers
-torch
-PyPDF2
-spacy
+
