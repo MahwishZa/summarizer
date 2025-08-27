@@ -1,0 +1,45 @@
+# Models
+models/
+*.bin
+*.h5
+*.pth
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyi
+.env/
+venv/           # ✅ Just 'venv/' - relative to server directory
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dependencies
+*.egg-info/
+*.egg
+build/
+dist/
+
+# Node.js (if any frontend tools in server)
+node_modules/
+npm-debug.log*
+
+# Uploads
+uploads/
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
