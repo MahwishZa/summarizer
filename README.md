@@ -1,12 +1,72 @@
-# React + Vite
+# Scribe - An Abstractive Text Summarization Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designed and developed a web application using Flask and React to automatically generate abstractive summaries of user-submitted text, leveraging NLP models.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React (Vite), Tailwind CSS
+* **Backend:** Flask (Python)
+* **API:** REST
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+```
+summarizer/
+├── client/   # React + Tailwind CSS frontend
+├── server/   # Flask backend
+└── README.md
+```
+
+---
+
+## 🚀 Setup
+
+### Prerequisites
+
+* Node.js & npm
+* Python 3.x
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/summarizer.git
+cd summarizer
+
+# Install frontend dependencies
+cd client
+npm install
+
+# Install backend dependencies
+cd ../server
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Running the App
+
+```bash
+# Start backend (Flask)
+cd server
+python app.py
+
+# Start frontend (React)
+cd ../client
+npm run dev
+```
+
+* Frontend: `http://localhost:5173`
+* Backend: `http://localhost:5000`
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
