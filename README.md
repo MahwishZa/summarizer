@@ -1,6 +1,6 @@
-# Scribe - An Abstractive Text Summarization Tool
+# Scribe – Abstractive Text Summarization Tool
 
-Designed and developed a web application using Flask and React to automatically generate abstractive summaries of user-submitted text, leveraging NLP models.
+Scribe is a web application built with Flask and React that generates **abstractive summaries** of user-submitted text using Natural Language Processing (NLP) models.
 
 ---
 
@@ -16,24 +16,25 @@ Designed and developed a web application using Flask and React to automatically 
 
 ```
 summarizer/
-├── client/   # React + Tailwind CSS frontend
-├── server/   # Flask backend
-└── README.md
+├── client/        # React + Tailwind CSS frontend
+├── server/        # Flask backend
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-## 🚀 Setup
+## 🚀 Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 
-* Node.js & npm
-* Python 3.x
+* [Node.js](https://nodejs.org/) & npm
+* [Python 3.x](https://www.python.org/)
 
-### Installation
+### 📦 Installation
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/your-username/summarizer.git
 cd summarizer
 
@@ -48,25 +49,32 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running the App
+## ▶️ Running the Application
 
 ```bash
-# Start backend (Flask)
+# Start the Flask backend
 cd server
 python app.py
 
-# Start frontend (React)
+# Start the React frontend
 cd ../client
 npm run dev
 ```
 
-* Frontend: `http://localhost:5173`
-* Backend: `http://localhost:5000`
+* Frontend: [http://localhost:5173](http://localhost:5173)
+* Backend: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 🎥 Demo
+
+Check out the demo here:
+🔗 [Watch Demo](https://drive.google.com/file/d/1uswqKMmHstwTx6K0G997HGNYrjQj4HoR/view?usp=sharing)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
 
 ---
