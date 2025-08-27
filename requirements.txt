@@ -92,6 +92,7 @@ Pygments==2.18.0
 PyPDF2==3.0.1
 python-dotenv==1.1.0
 python-Levenshtein==0.26.0
+python==3.11.9
 PyYAML==6.0.2
 RapidFuzz==3.10.0
 regex==2024.9.11
@@ -131,4 +132,3 @@ Werkzeug==3.0.4
 wheel==0.44.0
 wrapt==1.16.0
 yarl==1.17.1
-
